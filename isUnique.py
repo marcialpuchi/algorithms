@@ -13,6 +13,6 @@ def isUnique(word):
 	return True
 
 
-test=['hello', 'abc', 'marcial', 'jayne']
+test=['hello', 'abc', 'asdas', 'ablcdef']
 
 print [ (t, isUnique(t)) for t in test]

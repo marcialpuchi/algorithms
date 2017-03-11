@@ -25,9 +25,4 @@ test = [
 	['R','R','B','G'],
 ]
 
-#	B R G G
-#	G B G B
-#	R B R R
-#	R R G R
-
 print rotateMatrix(test)

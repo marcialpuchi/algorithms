@@ -1,7 +1,5 @@
-#!/bin/python3
+#Note: This is not completed yet
 
-import sys
-import math
 from collections import Counter
 
 n,k = input().strip().split(' ')

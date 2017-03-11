@@ -1,5 +1,3 @@
-# WRITE YOUR CODE HERE
-
 def checkBrackets(str):
 
 	bracket_chk = []

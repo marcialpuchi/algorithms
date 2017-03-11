@@ -1,7 +1,7 @@
 # ['A','B','B'],  'A'=>[ ((0,0)), ((2,0),(2,1)) ]
 # ['B','B','C'],  'B'=>[ ((0,1),(0,2),(1,0),(1,1)) ]
 # ['A','A','C']   'C'=>[ ((1,2),(2,2)) ]
-#
+
 
 from collections import defaultdict
 from pprint import pprint as pp
