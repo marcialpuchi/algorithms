@@ -3,7 +3,7 @@
 
 def isSubstring(s1,s2):
 
-	startIndex=-1
+	startIndex = -1
 
 	for f, letter in enumerate(s1):
 		i=s2.find(s1[:f])

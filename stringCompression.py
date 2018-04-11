@@ -6,16 +6,15 @@
 
 from itertools import groupby
 
+def strCompression(text):
+  compression = "".join(["{0}{1}".format(k, sum(1 for i in g)) for k, g in groupby(text)])
 
-def strCompression(text):	
-	compression = "".join(["{0}{1}".format(k, sum(1 for i in g)) for k, g in groupby(text)])
+  if len(compression) > len(text): return text
+  return compression
 
-	if len(compression) > len(text):
-		
-		return text
-	else:
-		return compression
+test = [
+  'aabcccccaaa',
+  'ababab'
+]
 
-
-test=['aabcccccaaa', 'ababab']
-print [ (t,strCompression(t)) for t in test]
+print([(t,strCompression(t)) for t in test])

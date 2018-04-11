@@ -25,4 +25,6 @@ test = [
 	['R','R','B','G'],
 ]
 
-print rotateMatrix(test)
+[print(row) for row in test]
+print('----------------------------')
+[print(row) for row in rotateMatrix(test)]
